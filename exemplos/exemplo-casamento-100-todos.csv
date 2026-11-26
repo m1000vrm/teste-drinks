@@ -1,0 +1,63 @@
+﻿Cocktail Planner Pro — Lista de compras
+Evento;Casamento de Camila e André
+Convidados;100;Duração (h);8;Coquetéis estimados;880
+Margem de segurança (%);15;Moeda;BRL
+
+Categoria;Produto;Quantidade necessária;Embalagem;Quantidade a comprar;Preço por embalagem;Subtotal;Comprado
+Bebidas alcoólicas;Aperol;3,04 L;garrafa de 750 ml;5;;;Não
+Bebidas alcoólicas;Cachaça;3,04 L;garrafa de 1 L;4;;;Não
+Bebidas alcoólicas;Gim;2,53 L;garrafa de 750 ml;4;;;Não
+Bebidas alcoólicas;Licor de laranja (triple sec);2,78 L;garrafa de 750 ml;4;;;Não
+Bebidas alcoólicas;Licor de pêssego;1,01 L;garrafa de 750 ml;2;;;Não
+Bebidas alcoólicas;Prosecco / espumante;4,55 L;garrafa de 750 ml;7;;;Não
+Bebidas alcoólicas;Rum branco;9,11 L;garrafa de 750 ml;13;39,90;518,70;Não
+Bebidas alcoólicas;Rum escuro / envelhecido;4,05 L;garrafa de 750 ml;6;;;Não
+Bebidas alcoólicas;Tequila prata;7,34 L;garrafa de 750 ml;10;119,00;1190,00;Não
+Bebidas alcoólicas;Uísque bourbon;2,53 L;garrafa de 750 ml;4;;;Não
+Bebidas alcoólicas;Vodca;6,58 L;garrafa de 750 ml;9;;;Não
+Frutas e ervas;Abacaxi fresco;4,05 kg;abacaxi inteiro (aprox. 1 kg de polpa);5;;;Não
+Frutas e ervas;Hortelã;1.518 folhas;maço (aprox. 60 folhas);26;;;Não
+Frutas e ervas;Laranja;48 unidades;saco de 2 kg (aprox. 10 un.);5;;;Não
+Frutas e ervas;Limão-taiti;553 unidades;saco de 1 kg (aprox. 14 un.);40;;;Não
+Frutas e ervas;Manga madura;3,04 kg;manga (aprox. 300 g de polpa);11;;;Não
+Frutas e ervas;Melancia;6,07 kg;melancia inteira (aprox. 4 kg de polpa);2;;;Não
+Frutas e ervas;Morangos;7,72 kg;caixa de 500 g;16;;;Não
+Frutas e ervas;Polpa de maracujá;2,28 kg;pacote de 500 g;5;;;Não
+Sucos, refrigerantes e água;Água com gás;16,7 L;garrafa de 1,5 L;12;;;Não
+Sucos, refrigerantes e água;Água de coco;3,79 L;caixa de 1 L;4;;;Não
+Sucos, refrigerantes e água;Água natural gelada (para o preparo);3,04 L;garrafa de 1,5 L;3;;;Não
+Sucos, refrigerantes e água;Água para hidratação dos convidados;115 L;garrafa de 1,5 L;77;;;Não
+Sucos, refrigerantes e água;Água tônica;7,59 L;lata de 350 ml;22;;;Não
+Sucos, refrigerantes e água;Ginger beer;6,07 L;lata de 350 ml;18;;;Não
+Sucos, refrigerantes e água;Refrigerante de cola;6,07 L;garrafa de 2 L;4;;;Não
+Sucos, refrigerantes e água;Refrigerante de grapefruit (toranja);7,59 L;garrafa de 2 L;4;;;Não
+Sucos, refrigerantes e água;Suco de abacaxi;12,14 L;caixa de 1 L;13;;;Não
+Sucos, refrigerantes e água;Suco de cranberry;4,55 L;caixa de 1 L;5;;;Não
+Sucos, refrigerantes e água;Suco de laranja;13,66 L;caixa de 1 L;14;;;Não
+Xaropes e complementos;Açúcar;759 g;pacote de 1 kg;1;;;Não
+Xaropes e complementos;Bitter Angostura;51 ml;frasco de 200 ml;1;;;Não
+Xaropes e complementos;Creme de coco;4,55 L;lata de 400 ml;12;;;Não
+Xaropes e complementos;Granadina (xarope de romã);1,14 L;garrafa de 750 ml;2;;;Não
+Xaropes e complementos;Sal para a borda;329 g;pacote de 500 g;1;;;Não
+Xaropes e complementos;Xarope de amêndoa (orgeat);759 ml;garrafa de 750 ml;2;;;Não
+Xaropes e complementos;Xarope simples (natural);6,58 L;garrafa de 750 ml;9;;;Não
+Gelo;Gelo em cubos;207,8 kg;saco de 3 kg;70;12,00;840,00;Não
+Decoração;Cerejas em calda;203 unidades;pote (aprox. 30 un.);7;;;Não
+Decoração;Guarda-chuvinhas de drinque;102 unidades;pacote com 50 un.;3;;;Não
+Decoração;Raminho de alecrim;51 unidades;maço (aprox. 10 raminhos);6;;;Não
+Utensílios e descartáveis;Canudos;481 unidades;pacote com 100 un.;5;;;Não
+Utensílios e descartáveis;Copos descartáveis ou reutilizáveis;230 unidades;pacote com 50 un.;5;;;Não
+Utensílios e descartáveis;Guardanapos de coquetel;1.012 unidades;pacote com 100 un.;11;;;Não
+
+Subtotal;Bebidas alcoólicas;;;;;1708,70
+Subtotal;Frutas e ervas;;;;;0,00
+Subtotal;Sucos, refrigerantes e água;;;;;0,00
+Subtotal;Xaropes e complementos;;;;;0,00
+Subtotal;Gelo;;;;;840,00
+Subtotal;Decoração;;;;;0,00
+Subtotal;Utensílios e descartáveis;;;;;0,00
+TOTAL;;;;;;2548,70
+Custo por convidado;;;;;;25,49
+Custo por coquetel;;;;;;2,90
+
+As quantidades são estimativas. Ajuste conforme seu público. Beba com moderação.

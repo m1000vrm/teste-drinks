@@ -1,0 +1,12 @@
+{
+  "name": "cocktail-planner-pro",
+  "version": "1.0.0",
+  "description": "Planificador de cócteles para eventos: calculadora de porciones, lista de compras y presupuesto.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/",
+    "start": "npx --yes serve@14.2.4 . -l 5173"
+  },
+  "engines": { "node": ">=18" }
+}

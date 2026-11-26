@@ -1,0 +1,11 @@
+{
+  "name": "Cocktail Planner Pro",
+  "short_name": "Cocktail Planner",
+  "description": "Planeje o bar de coquetéis do seu evento.",
+  "lang": "pt-BR",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#FFF9EF",
+  "theme_color": "#174E3A",
+  "icons": [{ "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

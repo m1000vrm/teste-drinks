@@ -1,0 +1,95 @@
+{
+  "_info": "Catálogo de ingredientes. 'unit' é a unidade base (ml, g, unidad, hoja). 'package' define a embalagem comercial na MESMA unidade base. 'buyAs' converte um ingrediente de receita em outro item de compra com um fator cadastrado (quantidadeItem = quantidade × fator). 'unitWeightG' é uma regra cadastrada de peso aproximado por unidade, apenas informativa.",
+  "categories": [
+    { "id": "alcohol", "name": "Bebidas alcoólicas", "order": 1 },
+    { "id": "frutas", "name": "Frutas e ervas", "order": 2 },
+    { "id": "mezcladores", "name": "Sucos, refrigerantes e água", "order": 3 },
+    { "id": "complementos", "name": "Xaropes e complementos", "order": 4 },
+    { "id": "hielo", "name": "Gelo", "order": 5 },
+    { "id": "decoracion", "name": "Decoração", "order": 6 },
+    { "id": "utensilios", "name": "Utensílios e descartáveis", "order": 7 }
+  ],
+  "items": {
+    "ron_blanco":      { "name": "Rum branco", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "ron_oscuro":      { "name": "Rum escuro / envelhecido", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "tequila":         { "name": "Tequila prata", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "triple_sec":      { "name": "Licor de laranja (triple sec)", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "gin":             { "name": "Gim", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "vodka":           { "name": "Vodca", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "cachaca":         { "name": "Cachaça", "category": "alcohol", "unit": "ml", "package": { "size": 1000, "label": "garrafa de 1 L", "kind": "botella" } },
+    "aperol":          { "name": "Aperol", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "prosecco":        { "name": "Prosecco / espumante", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "whisky":          { "name": "Uísque bourbon", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "licor_durazno":   { "name": "Licor de pêssego", "category": "alcohol", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+
+    "limon":           { "name": "Limão-taiti", "category": "frutas", "unit": "unidad", "unitWeightG": 70, "package": { "size": 14, "label": "saco de 1 kg (aprox. 14 un.)", "kind": "paquete" } },
+    "naranja":         { "name": "Laranja", "category": "frutas", "unit": "unidad", "unitWeightG": 200, "package": { "size": 10, "label": "saco de 2 kg (aprox. 10 un.)", "kind": "paquete" } },
+    "fresas":          { "name": "Morangos", "category": "frutas", "unit": "g", "package": { "size": 500, "label": "caixa de 500 g", "kind": "paquete" } },
+    "pina":            { "name": "Abacaxi fresco", "category": "frutas", "unit": "g", "package": { "size": 1000, "label": "abacaxi inteiro (aprox. 1 kg de polpa)", "kind": "unidad" } },
+    "menta":           { "name": "Hortelã", "category": "frutas", "unit": "hoja", "package": { "size": 60, "label": "maço (aprox. 60 folhas)", "kind": "paquete" } },
+    "sandia":          { "name": "Melancia", "category": "frutas", "unit": "g", "package": { "size": 4000, "label": "melancia inteira (aprox. 4 kg de polpa)", "kind": "unidad" } },
+    "mango":           { "name": "Manga madura", "category": "frutas", "unit": "g", "package": { "size": 300, "label": "manga (aprox. 300 g de polpa)", "kind": "unidad" } },
+    "maracuya":        { "name": "Polpa de maracujá", "category": "frutas", "unit": "g", "package": { "size": 500, "label": "pacote de 500 g", "kind": "paquete" } },
+
+    "jugo_limon":      { "name": "Suco de limão fresco", "category": "frutas", "unit": "ml", "buyAs": { "item": "limon", "factor": 0.03333333333333333, "rule": "1 limão rende aprox. 30 ml de suco" } },
+    "gajo_limon":      { "name": "Gomo de limão", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "limon", "factor": 0.125, "rule": "1 limão = 8 gomos" } },
+    "rodaja_limon":    { "name": "Rodela de limão", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "limon", "factor": 0.16666666666666666, "rule": "1 limão = 6 rodelas" } },
+    "rodaja_naranja":  { "name": "Rodela de laranja", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "naranja", "factor": 0.16666666666666666, "rule": "1 laranja = 6 rodelas" } },
+    "twist_naranja":   { "name": "Casca de laranja (twist)", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "naranja", "factor": 0.1, "rule": "1 laranja = 10 tiras de casca" } },
+    "rodaja_pina":     { "name": "Triângulo de abacaxi", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "pina", "factor": 40, "rule": "1 triângulo de abacaxi = aprox. 40 g" } },
+    "fresa_deco":      { "name": "Morango inteiro (decoração)", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "fresas", "factor": 15, "rule": "1 morango = aprox. 15 g" } },
+    "triangulo_sandia":{ "name": "Triângulo de melancia", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "sandia", "factor": 40, "rule": "1 triângulo de melancia = aprox. 40 g" } },
+    "ramita_menta":    { "name": "Raminho de hortelã", "category": "decoracion", "unit": "unidad", "buyAs": { "item": "menta", "factor": 4, "rule": "1 raminho = aprox. 4 folhas" } },
+
+    "agua_tonica":     { "name": "Água tônica", "category": "mezcladores", "unit": "ml", "package": { "size": 350, "label": "lata de 350 ml", "kind": "lata" } },
+    "ginger_beer":     { "name": "Ginger beer", "category": "mezcladores", "unit": "ml", "package": { "size": 350, "label": "lata de 350 ml", "kind": "lata" } },
+    "refresco_cola":   { "name": "Refrigerante de cola", "category": "mezcladores", "unit": "ml", "package": { "size": 2000, "label": "garrafa de 2 L", "kind": "botella" } },
+    "refresco_toronja":{ "name": "Refrigerante de grapefruit (toranja)", "category": "mezcladores", "unit": "ml", "package": { "size": 2000, "label": "garrafa de 2 L", "kind": "botella" } },
+    "agua_gas":        { "name": "Água com gás", "category": "mezcladores", "unit": "ml", "package": { "size": 1500, "label": "garrafa de 1,5 L", "kind": "botella" } },
+    "agua_natural":    { "name": "Água natural gelada (para o preparo)", "category": "mezcladores", "unit": "ml", "package": { "size": 1500, "label": "garrafa de 1,5 L", "kind": "botella" } },
+    "agua_coco":       { "name": "Água de coco", "category": "mezcladores", "unit": "ml", "package": { "size": 1000, "label": "caixa de 1 L", "kind": "envase" } },
+    "jugo_naranja":    { "name": "Suco de laranja", "category": "mezcladores", "unit": "ml", "package": { "size": 1000, "label": "caixa de 1 L", "kind": "envase" } },
+    "jugo_pina":       { "name": "Suco de abacaxi", "category": "mezcladores", "unit": "ml", "package": { "size": 1000, "label": "caixa de 1 L", "kind": "envase" } },
+    "jugo_arandano":   { "name": "Suco de cranberry", "category": "mezcladores", "unit": "ml", "package": { "size": 1000, "label": "caixa de 1 L", "kind": "envase" } },
+    "agua_hidratacion":{ "name": "Água para hidratação dos convidados", "category": "mezcladores", "unit": "ml", "package": { "size": 1500, "label": "garrafa de 1,5 L", "kind": "botella" } },
+
+    "jarabe_simple":   { "name": "Xarope simples (natural)", "category": "complementos", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "granadina":       { "name": "Granadina (xarope de romã)", "category": "complementos", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "jarabe_almendra": { "name": "Xarope de amêndoa (orgeat)", "category": "complementos", "unit": "ml", "package": { "size": 750, "label": "garrafa de 750 ml", "kind": "botella" } },
+    "crema_coco":      { "name": "Creme de coco", "category": "complementos", "unit": "ml", "package": { "size": 400, "label": "lata de 400 ml", "kind": "lata" } },
+    "azucar":          { "name": "Açúcar", "category": "complementos", "unit": "g", "package": { "size": 1000, "label": "pacote de 1 kg", "kind": "paquete" } },
+    "sal":             { "name": "Sal para a borda", "category": "complementos", "unit": "g", "package": { "size": 500, "label": "pacote de 500 g", "kind": "paquete" } },
+    "angostura":       { "name": "Bitter Angostura", "category": "complementos", "unit": "ml", "package": { "size": 200, "label": "frasco de 200 ml", "kind": "botella" } },
+
+    "hielo":           { "name": "Gelo em cubos", "category": "hielo", "unit": "g", "package": { "size": 3000, "label": "saco de 3 kg", "kind": "bolsa" } },
+
+    "cereza":          { "name": "Cerejas em calda", "category": "decoracion", "unit": "unidad", "package": { "size": 30, "label": "pote (aprox. 30 un.)", "kind": "paquete" } },
+    "sombrilla":       { "name": "Guarda-chuvinhas de drinque", "category": "decoracion", "unit": "unidad", "package": { "size": 50, "label": "pacote com 50 un.", "kind": "paquete" } },
+    "romero":          { "name": "Raminho de alecrim", "category": "decoracion", "unit": "unidad", "package": { "size": 10, "label": "maço (aprox. 10 raminhos)", "kind": "paquete" } },
+
+    "pajitas":         { "name": "Canudos", "category": "utensilios", "unit": "unidad", "package": { "size": 100, "label": "pacote com 100 un.", "kind": "paquete" } },
+    "servilletas":     { "name": "Guardanapos de coquetel", "category": "utensilios", "unit": "unidad", "package": { "size": 100, "label": "pacote com 100 un.", "kind": "paquete" } },
+    "vasos":           { "name": "Copos descartáveis ou reutilizáveis", "category": "utensilios", "unit": "unidad", "package": { "size": 50, "label": "pacote com 50 un.", "kind": "paquete" } }
+  },
+  "equipment": {
+    "coctelera":  { "name": "Coqueteleira" },
+    "jigger":     { "name": "Dosador (jigger)" },
+    "colador":    { "name": "Coador de coquetelaria" },
+    "macerador":  { "name": "Socador (muddler)" },
+    "licuadora":  { "name": "Liquidificador" },
+    "cuchara":    { "name": "Colher bailarina" },
+    "hielera":    { "name": "Balde de gelo ou caixa térmica" },
+    "exprimidor": { "name": "Espremedor de cítricos" },
+    "tabla":      { "name": "Tábua e faca" }
+  },
+  "glasses": {
+    "highball":  { "name": "Copo alto (highball)" },
+    "rocks":     { "name": "Copo baixo (old fashioned)" },
+    "coupe":     { "name": "Taça coupé" },
+    "margarita": { "name": "Taça margarita" },
+    "hurricane": { "name": "Taça hurricane" },
+    "balon":     { "name": "Taça balão" },
+    "vino":      { "name": "Taça de vinho" },
+    "mule":      { "name": "Caneca de cobre" }
+  }
+}

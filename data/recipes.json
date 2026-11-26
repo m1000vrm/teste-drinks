@@ -1,0 +1,308 @@
+{
+  "_info": "Catálogo de receitas. Quantidades POR DOSE na unidade base do ingrediente (ver data/ingredients.json). 'photo' aceita um caminho em assets/photos/; se estiver vazio, usa a ilustração vetorial.",
+  "recipes": [
+    {
+      "id": "mojito", "name": "Mojito clássico", "type": "alcohol", "photo": "assets/photos/mojito.webp",
+      "description": "Refrescante e herbal: rum branco, hortelã fresca, limão e um toque de água com gás.",
+      "glass": "highball", "tools": ["macerador", "jigger", "cuchara"],
+      "garnish": "Raminho de hortelã e rodela de limão.",
+      "ingredients": [
+        { "id": "ron_blanco", "qty": 50 }, { "id": "jugo_limon", "qty": 25 }, { "id": "jarabe_simple", "qty": 20 },
+        { "id": "menta", "qty": 8 }, { "id": "agua_gas", "qty": 60 }, { "id": "hielo", "qty": 180 },
+        { "id": "ramita_menta", "qty": 1 }, { "id": "rodaja_limon", "qty": 1 }
+      ],
+      "steps": ["Macere suavemente a hortelã com o xarope e o suco de limão no copo.", "Junte o rum e encha o copo com gelo.", "Complete com água com gás e misture de baixo para cima com a colher bailarina.", "Decore com o raminho de hortelã e a rodela de limão."],
+      "visual": { "top": "#E9F5D9", "bottom": "#B9DE9A", "garnish": ["mint", "lime"], "straw": true }
+    },
+    {
+      "id": "margarita", "name": "Margarita", "type": "alcohol", "photo": "assets/photos/margarita.webp",
+      "description": "O clássico mexicano: tequila, licor de laranja e limão, com borda de sal.",
+      "glass": "margarita", "tools": ["coctelera", "jigger", "colador"],
+      "garnish": "Borda de sal e rodela de limão.",
+      "ingredients": [
+        { "id": "tequila", "qty": 50 }, { "id": "triple_sec", "qty": 25 }, { "id": "jugo_limon", "qty": 25 },
+        { "id": "jarabe_simple", "qty": 10 }, { "id": "sal", "qty": 3 }, { "id": "hielo", "qty": 150 },
+        { "id": "rodaja_limon", "qty": 1 }
+      ],
+      "steps": ["Faça a crosta de sal na borda da taça com limão e sal.", "Agite na coqueteleira com gelo a tequila, o licor de laranja, o suco de limão e o xarope.", "Coe na taça.", "Decore com uma rodela de limão."],
+      "visual": { "top": "#F4F6C8", "bottom": "#D9E58C", "garnish": ["lime"], "rim": "salt" }
+    },
+    {
+      "id": "pina_colada", "name": "Piña Colada", "type": "alcohol", "photo": "assets/photos/pina_colada.webp",
+      "description": "Cremosa e tropical: rum, creme de coco e suco de abacaxi batidos com gelo.",
+      "glass": "hurricane", "tools": ["licuadora", "jigger"],
+      "garnish": "Triângulo de abacaxi e cereja.",
+      "ingredients": [
+        { "id": "ron_blanco", "qty": 50 }, { "id": "crema_coco", "qty": 45 }, { "id": "jugo_pina", "qty": 90 },
+        { "id": "hielo", "qty": 200 }, { "id": "rodaja_pina", "qty": 1 }, { "id": "cereza", "qty": 1 }
+      ],
+      "steps": ["Bata o rum, o creme de coco e o suco de abacaxi com o gelo até ficar cremoso.", "Sirva na taça hurricane.", "Decore com o triângulo de abacaxi e a cereja."],
+      "visual": { "top": "#FFF7E3", "bottom": "#F6DE9E", "garnish": ["pineapple", "cherry"], "straw": true, "frozen": true }
+    },
+    {
+      "id": "gin_tonic", "name": "Gim-tônica", "type": "alcohol", "photo": "assets/photos/gin_tonic.webp",
+      "description": "Elegante e borbulhante: gim com água tônica bem gelada, limão e alecrim.",
+      "glass": "balon", "tools": ["jigger", "cuchara"],
+      "garnish": "Rodela de limão e raminho de alecrim.",
+      "ingredients": [
+        { "id": "gin", "qty": 50 }, { "id": "agua_tonica", "qty": 150 }, { "id": "hielo", "qty": 200 },
+        { "id": "rodaja_limon", "qty": 1 }, { "id": "romero", "qty": 1 }
+      ],
+      "steps": ["Encha a taça balão com gelo e deixe gelar.", "Junte o gim.", "Despeje a tônica devagar, pela colher bailarina, para manter as borbulhas.", "Decore com a rodela de limão e o alecrim."],
+      "visual": { "top": "#F1F8F6", "bottom": "#D3ECE6", "garnish": ["lime", "rosemary"], "bubbles": true }
+    },
+    {
+      "id": "daiquiri_fresa", "name": "Daiquiri de morango", "type": "alcohol", "photo": "assets/photos/daiquiri_fresa.webp",
+      "description": "Frutado e frozen: rum branco, morangos frescos e limão batidos com gelo.",
+      "glass": "coupe", "tools": ["licuadora", "jigger"],
+      "garnish": "Morango inteiro na borda.",
+      "ingredients": [
+        { "id": "ron_blanco", "qty": 50 }, { "id": "jugo_limon", "qty": 25 }, { "id": "jarabe_simple", "qty": 15 },
+        { "id": "fresas", "qty": 100 }, { "id": "hielo", "qty": 150 }, { "id": "fresa_deco", "qty": 1 }
+      ],
+      "steps": ["Bata os morangos, o rum, o suco de limão e o xarope com o gelo.", "Sirva na taça coupé gelada.", "Decore com um morango na borda."],
+      "visual": { "top": "#FF9C9C", "bottom": "#E8435A", "garnish": ["strawberry"], "frozen": true }
+    },
+    {
+      "id": "moscow_mule", "name": "Moscow Mule", "type": "alcohol", "photo": "assets/photos/moscow_mule.webp",
+      "description": "Picante e refrescante: vodca, ginger beer e limão na caneca de cobre.",
+      "glass": "mule", "tools": ["jigger", "cuchara"],
+      "garnish": "Gomo de limão e raminho de hortelã.",
+      "ingredients": [
+        { "id": "vodka", "qty": 50 }, { "id": "jugo_limon", "qty": 15 }, { "id": "ginger_beer", "qty": 120 },
+        { "id": "hielo", "qty": 180 }, { "id": "gajo_limon", "qty": 1 }, { "id": "ramita_menta", "qty": 1 }
+      ],
+      "steps": ["Encha a caneca de cobre com gelo.", "Junte a vodca e o suco de limão.", "Complete com ginger beer e misture suavemente.", "Decore com o gomo de limão e a hortelã."],
+      "visual": { "top": "#F7EFD8", "bottom": "#E9D49E", "garnish": ["mint", "lime"] }
+    },
+    {
+      "id": "tequila_sunrise", "name": "Tequila Sunrise", "type": "alcohol", "photo": "assets/photos/tequila_sunrise.webp",
+      "description": "Um pôr do sol no copo: tequila, suco de laranja e granadina em camadas.",
+      "glass": "highball", "tools": ["jigger", "cuchara"],
+      "garnish": "Rodela de laranja e cereja.",
+      "ingredients": [
+        { "id": "tequila", "qty": 45 }, { "id": "jugo_naranja", "qty": 90 }, { "id": "granadina", "qty": 15 },
+        { "id": "hielo", "qty": 180 }, { "id": "rodaja_naranja", "qty": 1 }, { "id": "cereza", "qty": 1 }
+      ],
+      "steps": ["Encha o copo com gelo e junte a tequila e o suco de laranja.", "Despeje a granadina devagar pela borda para que desça ao fundo.", "Não misture, para manter o degradê.", "Decore com a laranja e a cereja."],
+      "visual": { "top": "#FFC24A", "bottom": "#E8434F", "garnish": ["orange", "cherry"], "straw": true }
+    },
+    {
+      "id": "cuba_libre", "name": "Cuba Libre", "type": "alcohol", "photo": "assets/photos/cuba_libre.webp",
+      "description": "Simples e popular: rum escuro, refrigerante de cola e um toque de limão.",
+      "glass": "highball", "tools": ["jigger"],
+      "garnish": "Gomo de limão.",
+      "ingredients": [
+        { "id": "ron_oscuro", "qty": 50 }, { "id": "refresco_cola", "qty": 120 }, { "id": "jugo_limon", "qty": 10 },
+        { "id": "hielo", "qty": 180 }, { "id": "gajo_limon", "qty": 1 }
+      ],
+      "steps": ["Encha o copo com gelo.", "Junte o rum e o suco de limão.", "Complete com o refrigerante de cola e misture suavemente.", "Decore com o gomo de limão."],
+      "visual": { "top": "#8A4B2A", "bottom": "#3B1A0E", "garnish": ["lime"], "bubbles": true, "straw": true }
+    },
+    {
+      "id": "caipirinha", "name": "Caipirinha", "type": "alcohol", "photo": "assets/photos/caipirinha.webp",
+      "description": "A joia brasileira: cachaça, limão macerado com açúcar e gelo picado.",
+      "glass": "rocks", "tools": ["macerador", "tabla"],
+      "garnish": "O próprio limão macerado.",
+      "ingredients": [
+        { "id": "cachaca", "qty": 60 }, { "id": "limon", "qty": 1 }, { "id": "azucar", "qty": 15 }, { "id": "hielo", "qty": 180 }
+      ],
+      "steps": ["Corte o limão em gomos e retire o miolo branco.", "Macere o limão com o açúcar no copo.", "Encha com gelo picado e junte a cachaça.", "Mexa bem e sirva."],
+      "visual": { "top": "#F2F7DC", "bottom": "#CFE59A", "garnish": ["lime"] }
+    },
+    {
+      "id": "aperol_spritz", "name": "Aperol Spritz", "type": "alcohol", "photo": "assets/photos/aperol_spritz.webp",
+      "description": "Aperitivo italiano: Aperol, espumante e água com gás, leve e borbulhante.",
+      "glass": "vino", "tools": ["jigger", "cuchara"],
+      "garnish": "Rodela de laranja.",
+      "ingredients": [
+        { "id": "prosecco", "qty": 90 }, { "id": "aperol", "qty": 60 }, { "id": "agua_gas", "qty": 30 },
+        { "id": "hielo", "qty": 150 }, { "id": "rodaja_naranja", "qty": 1 }
+      ],
+      "steps": ["Encha a taça de vinho com gelo.", "Junte o espumante e depois o Aperol.", "Complete com um toque de água com gás.", "Decore com a rodela de laranja."],
+      "visual": { "top": "#FFB15C", "bottom": "#F26B2A", "garnish": ["orange"], "bubbles": true }
+    },
+    {
+      "id": "sex_on_the_beach", "name": "Sex on the Beach", "type": "alcohol", "photo": "assets/photos/sex_on_the_beach.webp",
+      "description": "Doce e frutado: vodca, licor de pêssego, laranja e cranberry.",
+      "glass": "highball", "tools": ["coctelera", "jigger"],
+      "garnish": "Rodela de laranja.",
+      "ingredients": [
+        { "id": "vodka", "qty": 40 }, { "id": "licor_durazno", "qty": 20 }, { "id": "jugo_naranja", "qty": 60 },
+        { "id": "jugo_arandano", "qty": 60 }, { "id": "hielo", "qty": 180 }, { "id": "rodaja_naranja", "qty": 1 }
+      ],
+      "steps": ["Agite a vodca, o licor de pêssego e o suco de laranja com gelo.", "Sirva em copo alto com gelo.", "Despeje o suco de cranberry por cima para criar camadas.", "Decore com a rodela de laranja."],
+      "visual": { "top": "#FFB44D", "bottom": "#D8344F", "garnish": ["orange"], "straw": true }
+    },
+    {
+      "id": "cosmopolitan", "name": "Cosmopolitan", "type": "alcohol", "photo": "assets/photos/cosmopolitan.webp",
+      "description": "Sofisticado e rosado: vodca, licor de laranja, cranberry e limão.",
+      "glass": "coupe", "tools": ["coctelera", "jigger", "colador"],
+      "garnish": "Casca de laranja.",
+      "ingredients": [
+        { "id": "vodka", "qty": 40 }, { "id": "triple_sec", "qty": 15 }, { "id": "jugo_arandano", "qty": 30 },
+        { "id": "jugo_limon", "qty": 15 }, { "id": "hielo", "qty": 120 }, { "id": "twist_naranja", "qty": 1 }
+      ],
+      "steps": ["Agite todos os ingredientes com gelo por 10 segundos.", "Faça a coagem dupla na taça coupé gelada.", "Perfume com a casca de laranja e use-a como decoração."],
+      "visual": { "top": "#FF8FA3", "bottom": "#D9406A", "garnish": ["twist"] }
+    },
+    {
+      "id": "mai_tai", "name": "Mai Tai", "type": "alcohol", "photo": "assets/photos/mai_tai.webp",
+      "description": "Ícone tiki: dois runs, licor de laranja, amêndoa e limão.",
+      "glass": "rocks", "tools": ["coctelera", "jigger"],
+      "garnish": "Raminho de hortelã, gomo de limão e guarda-chuvinha.",
+      "ingredients": [
+        { "id": "ron_blanco", "qty": 30 }, { "id": "ron_oscuro", "qty": 30 }, { "id": "triple_sec", "qty": 15 },
+        { "id": "jarabe_almendra", "qty": 15 }, { "id": "jugo_limon", "qty": 25 }, { "id": "hielo", "qty": 180 },
+        { "id": "ramita_menta", "qty": 1 }, { "id": "gajo_limon", "qty": 1 }, { "id": "sombrilla", "qty": 1 }
+      ],
+      "steps": ["Agite o rum branco, o licor de laranja, o xarope de amêndoa e o limão com gelo.", "Sirva sobre gelo em copo baixo.", "Finalize com o rum escuro por cima.", "Decore com hortelã, limão e guarda-chuvinha."],
+      "visual": { "top": "#F7B05B", "bottom": "#B5521F", "garnish": ["mint", "umbrella"] }
+    },
+    {
+      "id": "paloma", "name": "Paloma", "type": "alcohol", "photo": "assets/photos/paloma.webp",
+      "description": "A favorita do México: tequila e refrigerante de grapefruit com limão e sal.",
+      "glass": "highball", "tools": ["jigger"],
+      "garnish": "Borda de sal e gomo de limão.",
+      "ingredients": [
+        { "id": "tequila", "qty": 50 }, { "id": "refresco_toronja", "qty": 150 }, { "id": "jugo_limon", "qty": 15 },
+        { "id": "sal", "qty": 2 }, { "id": "hielo", "qty": 180 }, { "id": "gajo_limon", "qty": 1 }
+      ],
+      "steps": ["Faça a crosta de sal em metade da borda do copo.", "Encha com gelo e junte a tequila e o suco de limão.", "Complete com o refrigerante de grapefruit.", "Decore com o gomo de limão."],
+      "visual": { "top": "#FFE1D6", "bottom": "#F7A99A", "garnish": ["lime"], "rim": "salt", "bubbles": true }
+    },
+    {
+      "id": "whisky_sour", "name": "Whisky Sour", "type": "alcohol", "photo": "assets/photos/whisky_sour.webp",
+      "description": "Equilíbrio perfeito: bourbon, limão, xarope e algumas gotas de bitter.",
+      "glass": "rocks", "tools": ["coctelera", "jigger", "colador"],
+      "garnish": "Rodela de laranja e cereja.",
+      "ingredients": [
+        { "id": "whisky", "qty": 50 }, { "id": "jugo_limon", "qty": 25 }, { "id": "jarabe_simple", "qty": 20 },
+        { "id": "angostura", "qty": 1 }, { "id": "hielo", "qty": 150 }, { "id": "rodaja_naranja", "qty": 1 }, { "id": "cereza", "qty": 1 }
+      ],
+      "steps": ["Agite o uísque, o limão e o xarope com gelo.", "Coe sobre copo baixo com gelo novo.", "Pingue 2 gotas de bitter Angostura.", "Decore com laranja e cereja."],
+      "visual": { "top": "#F6CF7A", "bottom": "#C98A2B", "garnish": ["orange", "cherry"] }
+    },
+
+    {
+      "id": "mojito_sin", "name": "Mojito sem álcool", "type": "sin", "photo": "assets/photos/mojito_sin.webp",
+      "description": "Todo o frescor do mojito, sem álcool: hortelã, limão e água com gás.",
+      "glass": "highball", "tools": ["macerador", "cuchara"],
+      "garnish": "Raminho de hortelã e rodela de limão.",
+      "ingredients": [
+        { "id": "jugo_limon", "qty": 25 }, { "id": "jarabe_simple", "qty": 25 }, { "id": "menta", "qty": 8 },
+        { "id": "agua_gas", "qty": 150 }, { "id": "hielo", "qty": 180 }, { "id": "ramita_menta", "qty": 1 }, { "id": "rodaja_limon", "qty": 1 }
+      ],
+      "steps": ["Macere a hortelã com o xarope e o suco de limão.", "Encha o copo com gelo.", "Complete com água com gás e misture.", "Decore com hortelã e limão."],
+      "visual": { "top": "#EEF8E2", "bottom": "#BFE3A3", "garnish": ["mint", "lime"], "straw": true, "bubbles": true }
+    },
+    {
+      "id": "pina_colada_virgen", "name": "Piña Colada sem álcool", "type": "sin", "photo": "assets/photos/pina_colada_virgen.webp",
+      "description": "Cremosa, tropical e para todas as idades: coco e abacaxi batidos.",
+      "glass": "hurricane", "tools": ["licuadora"],
+      "garnish": "Triângulo de abacaxi, cereja e guarda-chuvinha.",
+      "ingredients": [
+        { "id": "crema_coco", "qty": 60 }, { "id": "jugo_pina", "qty": 120 }, { "id": "hielo", "qty": 200 },
+        { "id": "rodaja_pina", "qty": 1 }, { "id": "cereza", "qty": 1 }, { "id": "sombrilla", "qty": 1 }
+      ],
+      "steps": ["Bata o creme de coco e o suco de abacaxi com o gelo.", "Sirva na taça hurricane.", "Decore com abacaxi, cereja e guarda-chuvinha."],
+      "visual": { "top": "#FFF9EA", "bottom": "#F8E2A8", "garnish": ["pineapple", "umbrella"], "frozen": true, "straw": true }
+    },
+    {
+      "id": "limonada_tropical", "name": "Limonada tropical", "type": "sin", "photo": "assets/photos/limonada_tropical.webp",
+      "description": "Limão, abacaxi e maracujá: uma limonada com gosto de férias.",
+      "glass": "highball", "tools": ["exprimidor", "cuchara"],
+      "garnish": "Rodela de limão.",
+      "ingredients": [
+        { "id": "jugo_limon", "qty": 30 }, { "id": "jugo_pina", "qty": 60 }, { "id": "maracuya", "qty": 30 },
+        { "id": "jarabe_simple", "qty": 20 }, { "id": "agua_natural", "qty": 120 }, { "id": "hielo", "qty": 180 }, { "id": "rodaja_limon", "qty": 1 }
+      ],
+      "steps": ["Misture o suco de limão, o suco de abacaxi, a polpa de maracujá e o xarope.", "Junte a água gelada e misture.", "Sirva sobre gelo.", "Decore com rodela de limão."],
+      "visual": { "top": "#FFF3B8", "bottom": "#F6C453", "garnish": ["lime"], "straw": true }
+    },
+    {
+      "id": "strawberry_lemonade", "name": "Limonada de morango", "type": "sin", "photo": "assets/photos/strawberry_lemonade.webp",
+      "description": "Limonada rosada com morangos frescos e um toque de água com gás.",
+      "glass": "highball", "tools": ["licuadora", "cuchara"],
+      "garnish": "Morango inteiro.",
+      "ingredients": [
+        { "id": "fresas", "qty": 60 }, { "id": "jugo_limon", "qty": 30 }, { "id": "jarabe_simple", "qty": 25 },
+        { "id": "agua_gas", "qty": 120 }, { "id": "hielo", "qty": 180 }, { "id": "fresa_deco", "qty": 1 }
+      ],
+      "steps": ["Bata os morangos com o suco de limão e o xarope.", "Sirva sobre gelo.", "Complete com água com gás e misture suavemente.", "Decore com um morango."],
+      "visual": { "top": "#FFD0D3", "bottom": "#F07868", "garnish": ["strawberry"], "straw": true, "bubbles": true }
+    },
+    {
+      "id": "virgin_margarita", "name": "Margarita sem álcool", "type": "sin", "photo": "assets/photos/virgin_margarita.webp",
+      "description": "Cítrica e com borda de sal, sem álcool: limão, laranja e água com gás.",
+      "glass": "margarita", "tools": ["coctelera", "colador"],
+      "garnish": "Borda de sal e rodela de limão.",
+      "ingredients": [
+        { "id": "jugo_limon", "qty": 30 }, { "id": "jugo_naranja", "qty": 60 }, { "id": "jarabe_simple", "qty": 15 },
+        { "id": "agua_gas", "qty": 30 }, { "id": "sal", "qty": 3 }, { "id": "hielo", "qty": 150 }, { "id": "rodaja_limon", "qty": 1 }
+      ],
+      "steps": ["Faça a crosta de sal na taça.", "Agite o suco de limão, o de laranja e o xarope com gelo.", "Coe na taça e complete com um toque de água com gás.", "Decore com a rodela de limão."],
+      "visual": { "top": "#F8F7C9", "bottom": "#E6E38A", "garnish": ["lime"], "rim": "salt" }
+    },
+    {
+      "id": "tropical_sunrise", "name": "Sunrise tropical", "type": "sin", "photo": "assets/photos/tropical_sunrise.webp",
+      "description": "O degradê do sunrise com laranja, abacaxi e granadina.",
+      "glass": "highball", "tools": ["cuchara"],
+      "garnish": "Rodela de laranja e cereja.",
+      "ingredients": [
+        { "id": "jugo_naranja", "qty": 90 }, { "id": "jugo_pina", "qty": 60 }, { "id": "granadina", "qty": 15 },
+        { "id": "hielo", "qty": 180 }, { "id": "rodaja_naranja", "qty": 1 }, { "id": "cereza", "qty": 1 }
+      ],
+      "steps": ["Encha o copo com gelo e junte os sucos de laranja e abacaxi.", "Despeje a granadina devagar para que desça ao fundo.", "Decore com laranja e cereja."],
+      "visual": { "top": "#FFD45E", "bottom": "#F0505A", "garnish": ["orange", "cherry"], "straw": true }
+    },
+    {
+      "id": "sandia_fresh", "name": "Refresco de melancia", "type": "sin", "photo": "assets/photos/sandia_fresh.webp",
+      "description": "Melancia batida com limão e hortelã: leve, vermelha e muito refrescante.",
+      "glass": "highball", "tools": ["licuadora", "tabla"],
+      "garnish": "Triângulo de melancia.",
+      "ingredients": [
+        { "id": "sandia", "qty": 200 }, { "id": "jugo_limon", "qty": 20 }, { "id": "jarabe_simple", "qty": 10 },
+        { "id": "menta", "qty": 4 }, { "id": "agua_gas", "qty": 60 }, { "id": "hielo", "qty": 150 }, { "id": "triangulo_sandia", "qty": 1 }
+      ],
+      "steps": ["Bata a melancia sem sementes com o limão, o xarope e a hortelã.", "Coe se preferir uma textura mais fina.", "Sirva sobre gelo e complete com água com gás.", "Decore com um triângulo de melancia."],
+      "visual": { "top": "#FFB3B0", "bottom": "#EE5A5F", "garnish": ["watermelon"], "straw": true }
+    },
+    {
+      "id": "passion_fruit_cooler", "name": "Refresco de maracujá", "type": "sin", "photo": "assets/photos/passion_fruit_cooler.webp",
+      "description": "Maracujá intenso com água com gás e hortelã: ácido, aromático e borbulhante.",
+      "glass": "highball", "tools": ["cuchara"],
+      "garnish": "Raminho de hortelã.",
+      "ingredients": [
+        { "id": "maracuya", "qty": 60 }, { "id": "jugo_limon", "qty": 10 }, { "id": "jarabe_simple", "qty": 25 },
+        { "id": "agua_gas", "qty": 120 }, { "id": "hielo", "qty": 180 }, { "id": "ramita_menta", "qty": 1 }
+      ],
+      "steps": ["Misture a polpa de maracujá com o limão e o xarope.", "Acrescente gelo e complete com água com gás.", "Misture suavemente.", "Decore com o raminho de hortelã."],
+      "visual": { "top": "#FFE07A", "bottom": "#F6A33B", "garnish": ["mint"], "bubbles": true, "straw": true }
+    },
+    {
+      "id": "coco_paradise", "name": "Paraíso de coco", "type": "sin", "photo": "assets/photos/coco_paradise.webp",
+      "description": "Água de coco, creme de coco e abacaxi: suave, hidratante e tropical.",
+      "glass": "hurricane", "tools": ["coctelera"],
+      "garnish": "Triângulo de abacaxi e guarda-chuvinha.",
+      "ingredients": [
+        { "id": "agua_coco", "qty": 150 }, { "id": "crema_coco", "qty": 30 }, { "id": "jugo_pina", "qty": 60 },
+        { "id": "hielo", "qty": 180 }, { "id": "rodaja_pina", "qty": 1 }, { "id": "sombrilla", "qty": 1 }
+      ],
+      "steps": ["Agite a água de coco, o creme de coco e o suco de abacaxi com gelo.", "Sirva sobre gelo novo.", "Decore com abacaxi e guarda-chuvinha."],
+      "visual": { "top": "#FBFAF2", "bottom": "#E8E3C8", "garnish": ["pineapple", "umbrella"], "straw": true }
+    },
+    {
+      "id": "mango_splash", "name": "Smoothie de manga", "type": "sin", "photo": "assets/photos/mango_splash.webp",
+      "description": "Manga madura batida com laranja e limão: dourado e cremoso.",
+      "glass": "hurricane", "tools": ["licuadora", "tabla"],
+      "garnish": "Rodela de laranja.",
+      "ingredients": [
+        { "id": "mango", "qty": 120 }, { "id": "jugo_naranja", "qty": 90 }, { "id": "jugo_limon", "qty": 15 },
+        { "id": "jarabe_simple", "qty": 10 }, { "id": "hielo", "qty": 150 }, { "id": "rodaja_naranja", "qty": 1 }
+      ],
+      "steps": ["Bata a polpa de manga com os sucos, o xarope e o gelo.", "Sirva na taça hurricane.", "Decore com a rodela de laranja."],
+      "visual": { "top": "#FFD36B", "bottom": "#F6A33B", "garnish": ["orange"], "frozen": true, "straw": true }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+﻿Cocktail Planner Pro — Lista de compras
+Evento;Aniversário da Sofia
+Convidados;50;Duração (h);4;Coquetéis estimados;150
+Margem de segurança (%);10;Moeda;BRL
+
+Categoria;Produto;Quantidade necessária;Embalagem;Quantidade a comprar;Preço por embalagem;Subtotal;Comprado
+Bebidas alcoólicas;Gim;1,65 L;garrafa de 750 ml;3;89,90;269,70;Sim
+Bebidas alcoólicas;Licor de laranja (triple sec);825 ml;garrafa de 750 ml;2;49,90;99,80;Não
+Bebidas alcoólicas;Rum branco;3,3 L;garrafa de 750 ml;6;39,90;239,40;Não
+Bebidas alcoólicas;Tequila prata;1,65 L;garrafa de 750 ml;3;119,00;357,00;Não
+Frutas e ervas;Hortelã;990 folhas;maço (aprox. 60 folhas);17;3,00;51,00;Não
+Frutas e ervas;Limão-taiti;141 unidades;saco de 1 kg (aprox. 14 un.);11;6,50;71,50;Não
+Frutas e ervas;Polpa de maracujá;495 g;pacote de 500 g;1;;;Não
+Sucos, refrigerantes e água;Água com gás;6,44 L;garrafa de 1,5 L;5;;;Não
+Sucos, refrigerantes e água;Água natural gelada (para o preparo);1,98 L;garrafa de 1,5 L;2;;;Não
+Sucos, refrigerantes e água;Água para hidratação dos convidados;27,5 L;garrafa de 1,5 L;19;;;Não
+Sucos, refrigerantes e água;Água tônica;4,95 L;lata de 350 ml;15;4,50;67,50;Não
+Sucos, refrigerantes e água;Suco de abacaxi;990 ml;caixa de 1 L;1;;;Não
+Xaropes e complementos;Sal para a borda;99 g;pacote de 500 g;1;;;Não
+Xaropes e complementos;Xarope simples (natural);2,39 L;garrafa de 750 ml;4;;;Não
+Gelo;Gelo em cubos;45,87 kg;saco de 3 kg;16;12,00;192,00;Sim
+Decoração;Raminho de alecrim;33 unidades;maço (aprox. 10 raminhos);4;;;Não
+Utensílios e descartáveis;Canudos;99 unidades;pacote com 100 un.;1;;;Não
+Utensílios e descartáveis;Copos descartáveis ou reutilizáveis;110 unidades;pacote com 50 un.;3;;;Não
+Utensílios e descartáveis;Guardanapos de coquetel;165 unidades;pacote com 100 un.;2;;;Não
+
+Subtotal;Bebidas alcoólicas;;;;;965,90
+Subtotal;Frutas e ervas;;;;;122,50
+Subtotal;Sucos, refrigerantes e água;;;;;67,50
+Subtotal;Xaropes e complementos;;;;;0,00
+Subtotal;Gelo;;;;;192,00
+Subtotal;Decoração;;;;;0,00
+Subtotal;Utensílios e descartáveis;;;;;0,00
+TOTAL;;;;;;1347,90
+Custo por convidado;;;;;;26,96
+Custo por coquetel;;;;;;8,99
+
+As quantidades são estimativas. Ajuste conforme seu público. Beba com moderação.
